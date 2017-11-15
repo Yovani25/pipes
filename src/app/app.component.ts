@@ -24,4 +24,8 @@ export class AppComponent {
       numero:"215"
     }
   }
+valordepromesa =new Promise((resolve, reject)=>{
+  setTimeout(()=>resolve('Llego la data!'),3500);
+})
+
 }
