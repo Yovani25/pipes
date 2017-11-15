@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import {LOCALE_ID} from '@angular/core';
 
 import { AppComponent } from './app.component';
 
