@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   nombre= "Yovani";
+  nombre2= "yoVani dAniEl gUel gOmEz"
 
   arreglo=[1,2,3,4,5,6,7,8,9,10];
 
