@@ -12,7 +12,7 @@ export class CapitalizadoPipe implements PipeTransform {
     if(todas){
     for(let i in nombres)
     {
-      nombres[i]=nombre[i][0].toUpperCase() + nombres[i].substr(1);
+      nombres[i]=nombres[i][0].toUpperCase() + nombres[i].substr(1);
     }
   }else{
     nombres[0]=nombres[0][0].toUpperCase()+ nombres [0].substr(1);
